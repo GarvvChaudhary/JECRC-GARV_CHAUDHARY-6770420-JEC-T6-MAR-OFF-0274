@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Address Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 14px;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Address Form</h2>
+
+    <label>Present Address:</label><br>
+    <textarea id="presentAddress" placeholder="Enter present address"></textarea>
+
+    <button onclick="copyAddress()">Copy to Permanent Address ↓</button>
+
+    <br><br>
+
+    <label>Permanent Address:</label><br>
+    <textarea id="permanentAddress" placeholder="Enter permanent address"></textarea>
+
+    <script>
+        function copyAddress() {
+            const present = document.getElementById("presentAddress").value;
+            document.getElementById("permanentAddress").value = present;
+        }
+    </script>
+
+</body>
+</html>
