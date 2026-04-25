@@ -1,0 +1,34 @@
+1774602348474	geckodriver	INFO	Listening on 127.0.0.1:63339
+1774602351624	mozrunner::runner	INFO	Running command: "C:\\Users\\garvc\\.cache\\selenium\\firefox\\win64\\149.0\\firefox.exe" "--marionette" "--remote-debugging- ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\garvc\\AppData\\Local\\Temp\\rust_mozprofilei4IFNk"
+Dynamically enable window occlusion 0
+1774602352106	Marionette	INFO	Marionette enabled
+1774602352206	Marionette	INFO	Listening on port 63362
+WebDriver BiDi listening on ws://127.0.0.1:63340
+Read port: 63362
+1774602352354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript warning: https://next.cricheroes.com/_next/static/chunks/main-48664c5dce41d8ac.js, line 1: Script terminated by timeout at:
+addLocale@https://next.cricheroes.com/_next/static/chunks/main-48664c5dce41d8ac.js:1:2223
+65170/e_<@https://next.cricheroes.com/_next/static/chunks/pages/_app-2772a09d8658541d.js:30:18562
+Nh@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:58499
+Yi@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:71242
+x@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:121488
+Uk@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:99087
+64448/Ik/<@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:98955
+Ik@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:98960
+Gk@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:94004
+J@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:33:1365
+R@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:33:1894
+
+JavaScript warning: https://gumi.criteo.com/syncframe?origin=publishertagids&topUrl=cricheroes.com&gdpr=0&gdpr_consent=&gpp=&gpp_sid=-1#{%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22cricheroes.com%22,%22topUrl%22:%22cricheroes.com%22,%22version%22:105800,%22origin%22:%22publishertagids%22,%22requestId%22:%220.24344490585508927%22}, line 13: Script terminated by timeout at:
+u.prototype.logPixel@https://gumi.criteo.com/syncframe?origin=publishertagids&topUrl=cricheroes.com&gdpr=0&gdpr_consent=&gpp=&gpp_sid=-1#{%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22cricheroes.com%22,%22topUrl%22:%22cricheroes.com%22,%22version%22:105800,%22origin%22:%22publishertagids%22,%22requestId%22:%220.24344490585508927%22}:13:3418
+u.prototype.flushEventQueue@https://gumi.criteo.com/syncframe?origin=publishertagids&topUrl=cricheroes.com&gdpr=0&gdpr_consent=&gpp=&gpp_sid=-1#{%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22cricheroes.com%22,%22topUrl%22:%22cricheroes.com%22,%22version%22:105800,%22origin%22:%22publishertagids%22,%22requestId%22:%220.24344490585508927%22}:13:3152
+u/<@https://gumi.criteo.com/syncframe?origin=publishertagids&topUrl=cricheroes.com&gdpr=0&gdpr_consent=&gpp=&gpp_sid=-1#{%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22cricheroes.com%22,%22topUrl%22:%22cricheroes.com%22,%22version%22:105800,%22origin%22:%22publishertagids%22,%22requestId%22:%220.24344490585508927%22}:13:3642
+
+1774602367504	Marionette	INFO	Stopped listening on port 63362
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

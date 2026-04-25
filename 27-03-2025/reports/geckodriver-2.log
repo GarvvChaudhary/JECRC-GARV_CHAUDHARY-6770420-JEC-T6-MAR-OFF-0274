@@ -1,0 +1,27 @@
+1774602243660	geckodriver	INFO	Listening on 127.0.0.1:63173
+1774602246820	mozrunner::runner	INFO	Running command: "C:\\Users\\garvc\\.cache\\selenium\\firefox\\win64\\149.0\\firefox.exe" "--marionette" "--remote-debugging- ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\garvc\\AppData\\Local\\Temp\\rust_mozprofile5OTIc6"
+Dynamically enable window occlusion 0
+1774602250196	Marionette	INFO	Marionette enabled
+1774602250354	Marionette	INFO	Listening on port 63211
+WebDriver BiDi listening on ws://127.0.0.1:63174
+Read port: 63211
+1774602250474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data
+JavaScript warning: https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js, line 9: Script terminated by timeout at:
+Ie@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:28969
+bj@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:71888
+x@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:122782
+Uk@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:99087
+64448/Ik/<@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:98955
+Ik@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:98960
+Gk@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:9:94004
+J@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:33:1365
+R@https://next.cricheroes.com/_next/static/chunks/framework-fee8a7e75612eda8.js:33:1894
+
+1774602353536	Marionette	INFO	Stopped listening on port 63211
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

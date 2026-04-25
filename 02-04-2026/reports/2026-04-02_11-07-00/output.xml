@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-04-02T11:07:00.577592" rpa="false" schemaversion="5">
+<suite id="s1" name="Arg" source="E:\Capgemini\RobotFramework\02-04-2026\arg.robot">
+<test id="s1-t1" name="Login" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-02T11:07:00.936881" level="INFO">Opening browser 'chrome' to base url 'https://sauce-demo.myshopify.com/account/login'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-02T11:07:00.936511" elapsed="15.777468"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-04-02T11:07:16.716053" elapsed="0.056523"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-02T11:07:18.774827" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-02T11:07:16.773224" elapsed="2.001922"/>
+</kw>
+<kw name="Login Success">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-02T11:07:18.782402" level="INFO">Typing text 'tunda4munda@gmail.com' into text field 'id=customer_email'.</msg>
+<arg>id=customer_email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-02T11:07:18.781143" elapsed="0.218046"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-02T11:07:18.999949" level="INFO">Typing text 'iamironman' into text field 'id=customer_password'.</msg>
+<arg>id=customer_password</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-02T11:07:18.999501" elapsed="0.168821"/>
+</kw>
+<arg>tunda4munda@gmail.com</arg>
+<status status="PASS" start="2026-04-02T11:07:18.779620" elapsed="0.388945"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-02T11:07:24.170884" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-02T11:07:19.169390" elapsed="5.001811"/>
+</kw>
+<status status="PASS" start="2026-04-02T11:07:00.935319" elapsed="23.236894"/>
+</test>
+<status status="PASS" start="2026-04-02T11:07:00.580628" elapsed="23.594406"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Arg" id="s1" pass="1" fail="0" skip="0">Arg</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,82 @@
+{
+	"id": "af7bcc58-2cea-41a4-be42-fb57866b2dfb",
+	"name": "Shopperstack_env",
+	"values": [
+		{
+			"key": "baseurl",
+			"value": "https://www.shoppersstack.com/shopping",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "shopperEmail",
+			"value": "tunda4munda@gmail.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "shopperPwd",
+			"value": "paglu123",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "shopperId",
+			"value": "384516",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "addressId",
+			"value": 153169,
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "addressId2",
+			"value": "153117",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "jwttoken",
+			"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0dW5kYTRtdW5kYUBnbWFpbC5jb20gU0hPUFBFUiIsImV4cCI6MTc3NTgzMzgzOCwiaWF0IjoxNzc1Nzk3ODM4fQ.a-g5yEL37L1Tebk1ZhPxZbiUQ4mT7O7_UxhmX_y96Mo",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "productId",
+			"value": 3589,
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "CartproductId",
+			"value": 53,
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "CartitemId",
+			"value": 481081,
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "orderId",
+			"value": 72981,
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "reviewId",
+			"value": 28522,
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2026-04-10T07:34:57.376Z",
+	"_postman_exported_using": "Postman/12.5.5"
+}
